@@ -1,3 +1,4 @@
+
 # Open Analog Designer Toolbox (OADT)
 
 ## Description
@@ -11,32 +12,38 @@ To use OADT, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/At139/OADT.git
-Ensure the following Python libraries are installed:
-PyQt5
-numpy
-scipy
-matplotlib
-You can install them using pip:
+   ```
+2. Ensure the following Python libraries are installed:
+   - PyQt5
+   - numpy
+   - scipy
+   - matplotlib
 
-bash
-Copy code
-pip install pyqt5 numpy scipy matplotlib
-Run the application:
-bash
-Copy code
-python main.py
-Features
+   You can install them using pip:
+   ```bash
+   pip install pyqt5 numpy scipy matplotlib
+   ```
 
-Generate Look-Up Tables (LUTs): Create LUTs for different semiconductor technologies to assist in analog design workflows.
-Generate gm/ID Curves: Customize and generate gm/ID curves using the LUTs for various design needs.
-Contributing
+3. Run the application:
+   ```bash
+   python main.py
+   ```
 
-This project uses tools provided in this repository. Special thanks to the author for their contribution.
+## Features
+
+1. **Generate Look-Up Tables (LUTs)**: Create LUTs for different semiconductor technologies to assist in analog design workflows.
+2. **Generate gm/ID Curves**: Customize and generate gm/ID curves using the LUTs for various design needs.
+
+## Contributing
+
+This project uses tools provided in [this repository](https://github.com/medwatt/gmid/tree/main). Special thanks to the author for their contribution.
 
 Feel free to contribute to OADT by forking the repository, making your changes, and submitting a pull request.
 
-Contact Information
+## Contact Information
 
-For inquiries, reach out via LinkedIn.
+For inquiries, reach out via [LinkedIn](https://www.linkedin.com/in/ahmed-elsherbiny-10aaa127a/).
 
+---
 
+**Repository Link**: [OADT GitHub Repo](https://github.com/At139/OADT)
